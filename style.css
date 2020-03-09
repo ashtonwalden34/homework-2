@@ -4,7 +4,29 @@
     max-width: 700px;
     max-height: 700px;
     overflow: hidden;
-}
+  }
+
+#containerPortfolio{
+    /*border: solid red 1px;
+    margin-top: 2%;
+    max-width: 700px;
+    max-height: 700px;
+    overflow: hidden;
+    */
+    background-color: lightgray;
+    padding: .5vw;
+    font-size: 0;
+    display: -ms-flexbox;
+    -webkit-flex-flow: row wrap; 
+    flex-flow: row wrap; 
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-flex: auto;
+    -ms-flex: auto;
+    flex: auto; 
+    max-width: 700px;
+    margin: .5vw; 
+  }
 
 /*Homepage*/
 
@@ -35,4 +57,29 @@
 
 #contactHeader{
     color: lightblue;
+}
+
+#portfolioHeader{
+    color: lightblue;
+}
+
+
+.portfolioImageL{
+
+    padding: 2%;  
+    
+    width: 100%; 
+  height: auto;
+}
+
+.portfolioImageR{
+    padding: 2%;  
+
+    width: 100%; 
+    height: auto;
+}
+
+#navbarName{
+    background-color: lime;
+    float: right;
 }
