@@ -1,0 +1,38 @@
+#container{
+    border: solid red 1px;
+    margin-top: 2%;
+    max-width: 700px;
+    max-height: 700px;
+    overflow: hidden;
+}
+
+/*Homepage*/
+
+#bioHeader{
+    color: lightblue;
+
+}
+
+.AboutMeP{
+    padding-top: 10px;
+    font-size: large;
+}
+
+.footer{
+    height: 10%;
+    width: 100%;
+    background-color: blue;
+}
+
+.selfImage{
+    width: 20%;
+    height: 20%;
+    float: left;
+    padding: 2%;
+}
+
+/*Contact page*/
+
+#contactHeader{
+    color: lightblue;
+}
