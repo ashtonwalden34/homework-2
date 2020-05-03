@@ -4,6 +4,7 @@
     max-width: 700px;
     max-height: 700px;
     overflow: hidden;
+    background-color: lightblue;
   }
 
 #containerPortfolio{
@@ -29,15 +30,16 @@
   }
 
 /*Homepage*/
-
 #bioHeader{
-    color: lightblue;
-
+    color: gray;
+    padding-bottom: 0%;
+    text-decoration: underline;
 }
 
-.AboutMeP{
+.AboutMe{
     padding-top: 10px;
     font-size: large;
+    float: left;
 }
 
 .footer{
@@ -46,11 +48,12 @@
     background-color: blue;
 }
 
-.selfImage{
-    width: 20%;
-    height: 20%;
+.aboutMePic{
+    width: 30%;
+    height: 30%;
     float: left;
-    padding: 2%;
+    padding-top: 0%;
+    padding-bottom: 2%;
 }
 
 /*Contact page*/
