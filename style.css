@@ -1,20 +1,46 @@
+body{
+    background-image: url(images/background.jpg);
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
 #container{
+    min-width: 100%;
+    min-height: 95vh;
+}
+
+#backgroundCredit{
+    position: absolute;
+    bottom: 0;
+    color: lightgray;
+}
+
+#nav{
+    min-width: 100vw;
+}
+
+
+
+
+
+#contentContainer{
     border: solid red 1px;
     margin-top: 2%;
+    min-width: 50vw;
+    min-height: 25vh;
     max-width: 700px;
     max-height: 700px;
     overflow: hidden;
     background-color: lightblue;
+    z-index: 2;
+    position: absolute;
   }
 
 #containerPortfolio{
-    /*border: solid red 1px;
-    margin-top: 2%;
-    max-width: 700px;
-    max-height: 700px;
-    overflow: hidden;
-    */
-    background-color: lightgray;
+    background-color: lightblue;
     padding: .5vw;
     font-size: 0;
     display: -ms-flexbox;
@@ -27,25 +53,33 @@
     flex: auto; 
     max-width: 700px;
     margin: .5vw; 
+    z-index: 2;
+    position: absolute;
+    max-height: 80vh;
   }
 
 /*Homepage*/
 #bioHeader{
-    color: gray;
+    color: orange;
     padding-bottom: 0%;
     text-decoration: underline;
+    z-index: 2;
 }
 
 .AboutMe{
     padding-top: 10px;
     font-size: large;
     float: left;
+    width: 70%;
+    z-index: 2;
 }
 
 .footer{
     height: 10%;
     width: 100%;
     background-color: blue;
+    z-index: 2;
+    position: absolute;
 }
 
 .aboutMePic{
@@ -54,21 +88,28 @@
     float: left;
     padding-top: 0%;
     padding-bottom: 2%;
+    z-index: 2;
 }
 
-/*Contact page*/
+/*Contact page */
 
 #contactHeader{
-    color: lightblue;
+    color: gray;
+    text-decoration: underline;
+    z-index: 2;
 }
+
+
+/* Portfolio page */
 
 #portfolioHeader{
-    color: lightblue;
+    color: peachpuff;
+    text-decoration: underline;
+    z-index: 2;
 }
 
-
 .portfolioImageL{
-
+    z-index: 2;
     padding: 2%;  
     
     width: 100%; 
@@ -76,7 +117,8 @@
 }
 
 .portfolioImageR{
-    padding: 2%;  
+    padding: 2%; 
+    z-index: 2; 
 
     width: 100%; 
     height: auto;

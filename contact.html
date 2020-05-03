@@ -13,49 +13,38 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light" style = "background-color: lightblue;">
+  <nav class="navbar navbar-expand-md navbar-light" id="nav" style = "background-color: lightblue;">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand" href="index.html">Ashton Walden</a>
-  
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
+     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
+          </li>
+        </ul>
     </div>
   </nav>
-
-  <div class = "col-md-6 offset-md-1", id = "container">
+  
+  <div id="container">
+  <div class = "col-md-6 offset-md-1", id = "contentContainer">
     <h1 id="contactHeader"> Contact </h1>
-
-    <form class="form">
-      <div class="form-group">
-        <label for="exampleFormControlInput1">name</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1">
-      </div>
-
-      <div class="form-group">
-        <label for="exampleFormControlInput1">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
-
-      <div class="form-group">
-        <label for="exampleFormControlTextarea1">Message</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-
-      <button type="submit" class="btn btn-primary mb-2">submit</button>
-    </form>
+    <div id="contactInfo">
+      <p> <h4>Ashton Walden</h4>
+        Email: ashtonwalden@icloud.com <br>
+        <a href="https://github.com/ashtonwalden34">GitHub: ashtonwalden34</a> <br>
+        <a href="https://www.linkedin.com/in/ashton-walden-81172619b/"">Linkedin: Ashton Walden</a>
+      </p>
+    </div>
   </div>
+</div>
  
 </body>
 </html>
